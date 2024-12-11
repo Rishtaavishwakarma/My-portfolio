@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header & Navbar -->
+  <header class="bg-gradient text-white py-6">
+    <nav class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Rishta Vishwakarma</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:underline">About Me</a></li>
+        <li><a href="#skills" class="hover:underline">Skills</a></li>
+        <li><a href="#projects" class="hover:underline">Projects</a></li>
+        <li><a href="#about-more" class="hover:underline">Know More</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gradient text-white">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-extrabold mb-4">Welcome to My Portfolio</h2>
+      <p id="typed-text" class="text-lg"></p>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-16 fade-in">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+      <img src="rishta.jpeg" alt="Your Photo" class="rounded-full w-64 h-64 mb-6 md:mb-0 scale-up">
+      <div class="md:ml-10 text-center md:text-left">
+        <!-- <h2 class="section-title">About Me</h2> -->
+        <p class="text-gray-700">
+          <p class="text-2xl">Myself Rishta Vishwakarma, &#128526;</p>
+          <br> I am a dedicated and aspiring Software Engineer, 
+          <br> Currently pursuing masters in Information Technology at Ramniranjan Jhunjhunwala College.
+          <br> With a passion for innovation and a commitment to learning, I strive to deliver impactful solutions that excel in both quality and purpose.
+        </p>
+      </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16 bg-gray-50 fade-in">
+    <div class="container mx-auto text-center">
+      <h2 class="section-title">My Skills</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 relative">
+        <div class="relative p-6 bg-white rounded-lg shadow-md hover-flip">
+          <div class="front">
+            <h3 class="font-bold text-xl mb-2">Python</h3>
+          </div>
+          <div class="back absolute inset-0 bg-gray-800 text-white flex items-center justify-center rounded-lg">
+            <p>Intermediate with different mini projects completed</p>
+          </div>
+        </div>
+        <div class="relative p-6 bg-white rounded-lg shadow-md hover-flip">
+          <div class="front">
+            <h3 class="font-bold text-xl mb-2">Linux</h3>
+          </div>
+          <div class="back absolute inset-0 bg-gray-800 text-white flex items-center justify-center rounded-lg">
+            <p>Done Certification from Great Learning</p>
+          </div>
+        </div>
+        <div class="relative p-6 bg-white rounded-lg shadow-md hover-flip">
+          <div class="front">
+            <h3 class="font-bold text-xl mb-2">IOT</h3>
+          </div>
+          <div class="back absolute inset-0 bg-gray-800 text-white flex items-center justify-center rounded-lg">
+            <p>Projects in IOT:- Robotic arm & Smart Refrigerator</p>
+          </div>
+        </div>
+        <div class="relative p-6 bg-white rounded-lg shadow-md hover-flip">
+          <div class="front">
+            <h3 class="font-bold text-xl mb-2">Html CSS & JS</h3>
+          </div>
+          <div class="back absolute inset-0 bg-gray-800 text-white flex items-center justify-center rounded-lg">
+            <p>Done Web development certification from Magic bus</p>
+          </div>
+        </div>
+        <div class="relative p-6 bg-white rounded-lg shadow-md hover-flip">
+          <div class="front">
+            <h3 class="font-bold text-xl mb-2">Node js and Prisma</h3>
+          </div>
+          <div class="back absolute inset-0 bg-gray-800 text-white flex items-center justify-center rounded-lg">
+            <p>Know basic still learning more </p>
+          </div>
+        </div>
+        <div class="relative p-6 bg-white rounded-lg shadow-md hover-flip">
+          <div class="front">
+            <h3 class="font-bold text-xl mb-2">React Native</h3>
+          </div>
+          <div class="back absolute inset-0 bg-gray-800 text-white flex items-center justify-center rounded-lg">
+            <p>Learning in Progress</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 fade-in">
+    <div class="container mx-auto text-center">
+      <h2 class="section-title text-3xl font-bold mb-8">My Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div class="project-card p-4 shadow-lg rounded-lg border">
+          <div class="relative w-full h-48 overflow-hidden rounded-md">
+            <img src="robotic_Arm.png" alt="Robotic Arms" class="w-full h-full object-cover">
+          </div>
+          <h3 class="font-bold text-xl mt-4">Robotic Arm</h3>
+          <a href="#" class="text-blue-600 hover:underline">View Project</a>
+        </div>
+        <div class="project-card p-4 shadow-lg rounded-lg border">
+          <div class="relative w-full h-48 overflow-hidden rounded-md">
+            <img src="sr.jpg" alt="Smart Refrigerator" class="w-full h-full object-cover">
+          </div>
+          <h3 class="font-bold text-xl mt-4">Smart Refrigerator</h3>
+          <a href="#" class="text-blue-600 hover:underline">View Project</a>
+        </div>
+        <div class="project-card p-4 shadow-lg rounded-lg border">
+          <div class="relative w-full h-48 overflow-hidden rounded-md">
+            <img src="project3.jpg" alt="Project 3" class="w-full h-full object-cover">
+          </div>
+          <h3 class="font-bold text-xl mt-4">Project 3</h3>
+          <a href="#" class="text-blue-600 hover:underline">View Project</a>
+        </div>
+        <div class="project-card p-4 shadow-lg rounded-lg border">
+          <div class="relative w-full h-48 overflow-hidden rounded-md">
+            <img src="project4.jpg" alt="Project 4" class="w-full h-full object-cover">
+          </div>
+          <h3 class="font-bold text-xl mt-4">Project 4</h3>
+          <a href="#" class="text-blue-600 hover:underline">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Know More Section -->
+  <section id="about-more" class="py-16 bg-gray-50 fade-in">
+    <div class="container mx-auto text-center">
+      <h2 class="section-title">Know More About Me</h2>
+      <div class="flex justify-center space-x-6">
+        <a href="https://github.com" class="text-gray-600 hover:text-gray-800">
+          <img src="github-icon.png" alt="GitHub" class="w-8 inline">
+        </a>
+        <a href="https://instagram.com" class="text-gray-600 hover:text-gray-800">
+          <img src="instagram-icon.png" alt="Instagram" class="w-8 inline">
+        </a>
+        <a href="https://linkedin.com" class="text-gray-600 hover:text-gray-800">
+          <img src="linkedin-icon.png" alt="LinkedIn" class="w-8 inline">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Typing animation
+    var typed = new Typed('#typed-text', {
+      strings: ["I am a Web Developer.", "I create amazing websites.", "Let's collaborate!"],
+      typeSpeed: 50,
+      backSpeed: 25,
+      loop: true
+    });
+  </script>
+</body>
+</html>
